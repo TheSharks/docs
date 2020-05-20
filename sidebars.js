@@ -1,7 +1,7 @@
 module.exports = {
   sidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
     Commands: ['commands'],
+    'Custom commands': ['custom_commands', 'command_class'],
+    Docusaurus: ['style_guide']
   }
 }

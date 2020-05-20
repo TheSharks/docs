@@ -51,7 +51,7 @@ export default {
   },
   prereqs: {
     name: 'Required prerequisites',
-    description: 'Required internal custom prerequisites, see [prereqs](https://github.com/TheSharks/WildBeast)',
+    description: 'Required internal custom prerequisites',
     type: 'Array<String>',
     default: []
   },

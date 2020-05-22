@@ -7,6 +7,10 @@ module.exports = {
   organizationName: 'TheSharks', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: 'c4c0d87b80abc169218d41ffb42e260f',
+      indexName: 'thesharks'
+    },
     navbar: {
       title: 'WildBeast',
       logo: {

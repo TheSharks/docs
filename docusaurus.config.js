@@ -1,7 +1,7 @@
 module.exports = {
   title: 'WildBeast',
-  tagline: 'A Discord bot made for maximum personalisation and ease of use. ',
-  url: 'https://docs.thesharks.xyz',
+  tagline: ' Feature-rich Discord bot framework.',
+  url: 'https://wildbeast.guide',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'TheSharks', // Usually your GitHub org/user name.

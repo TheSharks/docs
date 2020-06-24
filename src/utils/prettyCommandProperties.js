@@ -1,23 +1,11 @@
 // A map of prettier and more verbose names for WildBeast command properties
 
 export default {
-  category: {
-    name: 'Category',
-    description: 'Command category',
-    type: 'String',
-    default: 'Uncategorized'
-  },
   helpMessage: {
     name: 'Help message',
     description: 'Help message for this command, contains information of what it does, how to use it, etc.',
     type: 'String',
     default: '[help message not set]'
-  },
-  accessLevel: {
-    name: 'Access level',
-    description: 'Minimum access level required to run this command',
-    type: 'Number',
-    default: 0
   },
   hidden: {
     name: 'Is hidden?',
@@ -32,8 +20,8 @@ export default {
     default: false
   },
   disableDM: {
-    name: 'Can be run in DMs?',
-    description: 'Whether to allow the running of this command in Direct Messages',
+    name: 'Disabled in DMs?',
+    description: 'Whether this command is disabled in Direct Messages',
     type: 'Boolean',
     default: false
   },
